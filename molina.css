@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap%27');
+
+p:nth-child(2){
+    background-color: #5555a3;
+    color: white;
+    font-family: Dancing Script;
+}
+li {
+    font-family: Dancing Script;
+    background-color: lime;
+}

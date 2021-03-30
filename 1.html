@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Josep Molina Martínez</title>
+        <link rel="stylesheet" type="text/css" href="molina.css"/>
+        <script>
+            function hazMagia() {
+                return false; 
+            }
+        </script>
+	</head>
+	<body>
+        <h1>Molina</h1>
+        <div>
+            <p>Esto contiene instrucciones</p>
+            <p>Hoy es <script>document.write(new Date())</script></p>
+            <p>
+			<ol>
+				<li>Primero</li>
+				<li>Segundo</li>
+				<li>Tercero</li>
+				<li>Cuarto</li>
+			</ol>
+			<p>
+            <form onSubmit="return hazMagia()">
+                N<input type="number" name="N" required="required">
+                Texto<input type="text" name="texto" required="required">
+                <p>
+                    <input type="submit" value="Hacer">
+                </p>
+            </form> 
+        </div>
+	</body>
+</html>
